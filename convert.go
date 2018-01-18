@@ -1,13 +1,13 @@
-package myencode
+package encode
 
 import (
-	"fmt"
-	"encoding/base64"
 	"bytes"
+	"encoding/base64"
+	"fmt"
 )
 
 const (
-	null    string = "\x00"
+	null string = "\x00"
 )
 
 // ToUint64 converts the byte slice b of length 8 to an uint64.
